@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+
+}
+
+body {
+    background-image: url(img/sven-mieke-MsCgmHuirDo-unsplash.jpg);
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 60px;
+    border: 3px solid white;
+    
+}
+
+h1 {
+    margin-top: 10px;
+    font-weight: 100px;
+    font-size: 24px;
+    margin-bottom: 2px;
+    color: rgb(255, 255, 255);
+}
+
+
+h2 {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.icon img {
+    width: 30px;
+    margin-top: -10px;
+    margin: 0 90px;
+}
+
+.profile {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.social img {
+    width: 34px;
+    color: darkgreen;
+}
+
+.links {
+    margin: auto;
+    list-style: none;   
+    margin-top: 50px;
+}
+
+.links li {
+    margin: 10px 20px;
+    
+}
+
+.links li a {
+    background-color: rgb(15, 12, 22);
+    padding: 15px 20px;
+    display: block;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.links li a span {
+    color: rgb(12, 21, 99);
+    display: block;
+    margin-top: 10px;
+}
+
