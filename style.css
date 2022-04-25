@@ -103,3 +103,11 @@ h3 {
     margin-top: 10px;
 }
 
+
+footer {
+    text-align: center;
+    color: white;
+    margin-top: 170px;
+    margin: 135px 20px;
+    font-size: 13px;
+}
